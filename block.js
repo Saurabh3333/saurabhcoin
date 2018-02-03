@@ -51,10 +51,10 @@ class Blockchain {
     }
 }
 
-let sscoin = new Blockchain();
-sscoin.addBlock(new Block(1, "01/01/2018", { amount: 8 }));
-sscoin.addBlock(new Block(2, "03/02/2018", { amount: 20 }));
+let ssCoin = new Blockchain();
+ssCoin.addBlock(new Block(1, "01/01/2018", { amount: 8 }));
+ssCoin.addBlock(new Block(2, "03/02/2018", { amount: 20 }));
 
-console.log("Is chain valid? " + sscoin.isChainValid());
+console.log("Is chain valid? " + ssCoin.isChainValid());
 
 //console.log(JSON.stringify(sscoin, null, 4));
