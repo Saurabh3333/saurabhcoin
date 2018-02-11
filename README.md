@@ -1,1 +1,2 @@
-# sscoin
+## sscoin
+A decentralized simple cryptocurrency.
