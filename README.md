@@ -1,4 +1,6 @@
 ## sscoin
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Saurabh3333/sscoin.svg)](https://greenkeeper.io/)
 A simple decentralized cryptocurrency.
 
 ## Contributing
