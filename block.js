@@ -1,4 +1,5 @@
 const SHA256 = require('crypto-js/sha256');
+const DIFFICULTY = 2;
 
 class Block {
     constructor (index, timestamp, data, previousHash = '') {
@@ -27,7 +28,7 @@ class Block {
 class Blockchain {
     constructor() {
         this.chain = [this.createGenesisBlock()];
-        this.difficulty = 2;
+        this.difficulty = DIFFICULTY;
     }
 
     createGenesisBlock() {
