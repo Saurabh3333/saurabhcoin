@@ -20,7 +20,7 @@ class Block {
             this.hash = this.calculateHash();
         }
 
-        console.log("Block mined: - Wow " + this.hash);
+        console.log("Block mined: - Great " + this.hash);
     }
 }
 
